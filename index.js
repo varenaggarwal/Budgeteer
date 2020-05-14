@@ -81,7 +81,6 @@
  }
  
  function deleteItem(dateValue , amount) {
-     console.log("hihih");
      const filterArr = allexpenses
                          .filter(expense => expense.moment.valueOf() !== dateValue );
      
